@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore the local hugo in the bin directory.
+# npm run gethugo instead -- it will get the correct architecture and OS version of hugo
+# and version from the package.json file
+/.hugo_build.lock
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# Vagrant
+.vagrant/
+
+# FE Setup
+.bin/node_modules/
+/node_modules/
+/npm-debug.log.*
+/npm-debug.log
+/npm-debug.log*
+
+# Hugo
+hugo_stats.json
+public
+remote_build
+resources
+
+# Local Netlify folder
+.netlify
+.hugo_build.lock

@@ -1,0 +1,61 @@
+baseURL = "https://mae.io/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Lynx"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+   name = "M. Andrew Eick"
+  # headline = "An awesome person"
+  # image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
+    { link = {link="https://eick.com/", text="Personal Website"} },
+    { link = {link="https://eick.com/piano", text = "Libby's piano recordings" } },
+    { link = {link="https://missionfocus.com/", text = "Mission Focus" } },
+    { link = {link="https://imintel.org/", text = "Institute for Modern Intelligence" } },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    { github = "https://github.com/andreweick" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    { linkedin = "https://linkedin.com/in/andreweick" },
+    { mastodon = "https://toot.eick.com/@andy" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    { twitter = "https://twitter.com/andreweick" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    { youtube = "https://www.youtube.com/channel/UCk2TPo5-33bGbrJaTpbBr5Q" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
