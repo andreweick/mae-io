@@ -51,8 +51,8 @@ disableKinds = ["taxonomy", "term"]
     # { twitch = "https://twitch.tv/username" },
     { twitter = "https://twitter.com/andreweick" },
     # { whatsapp = "https://wa.me/phone-number" },
-    { youtube = "https://www.youtube.com/channel/UCk2TPo5-33bGbrJaTpbBr5Q" },
     { mastodon = "https://toot.eick.com/@andy" },
+    { youtube = "https://www.youtube.com/channel/UCk2TPo5-33bGbrJaTpbBr5Q" },
   ]
 
 [module]
