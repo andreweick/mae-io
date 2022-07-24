@@ -36,7 +36,6 @@ disableKinds = ["taxonomy", "term"]
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
     { linkedin = "https://linkedin.com/in/andreweick" },
-    { mastodon = "https://toot.eick.com/@andy" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
     # { patreon = "https://www.patreon.com/username" },
@@ -53,6 +52,7 @@ disableKinds = ["taxonomy", "term"]
     { twitter = "https://twitter.com/andreweick" },
     # { whatsapp = "https://wa.me/phone-number" },
     { youtube = "https://www.youtube.com/channel/UCk2TPo5-33bGbrJaTpbBr5Q" },
+    { mastodon = "https://toot.eick.com/@andy" },
   ]
 
 [module]
