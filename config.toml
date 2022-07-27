@@ -16,7 +16,6 @@ disableKinds = ["taxonomy", "term"]
   links = [
     # { email = "mailto:hello@your_domain.com" },
     { link = {link="https://eick.com/", text="Personal Website"} },
-    { link = {link="https://eick.com/piano", text = "Libby's piano recordings" } },
     { link = {link="https://missionfocus.com/", text = "Mission Focus" } },
     { link = {link="https://imintel.org/", text = "Institute for Modern Intelligence" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -51,6 +50,7 @@ disableKinds = ["taxonomy", "term"]
     # { twitch = "https://twitch.tv/username" },
     { twitter = "https://twitter.com/andreweick" },
     # { whatsapp = "https://wa.me/phone-number" },
+    { link = {link="https://eick.com/piano", text = "Libby's piano recordings" } },
     { mastodon = "https://toot.eick.com/@andy" },
     { youtube = "https://www.youtube.com/channel/UCk2TPo5-33bGbrJaTpbBr5Q" },
   ]
